@@ -5,7 +5,6 @@ while len(my_list) > count:
     count += 1
     if my_list[count] == 0:
         count += 1
-        continue
     elif my_list[count] < 0:
         print(f"Нашел отрицательное число: {my_list[count]}")
         break
